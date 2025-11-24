@@ -1,0 +1,367 @@
+
+
+Hai detto:
+Servono specie mutate come pericoli ambientali, divisi in due categorie 
+- della costa
+- della conca
+ognuna delle quali suddivisa in due gruppi 
+- grandi, almeno una specie non pericolosa addomesticabile per uso trasporto (alla stregua dei bramini di Fallout) e le altre solo pericolose 
+- piccole, quasi tutte non pericolose e utilizzabili come fonte risorse
+Un capitolo a parte è la fauna volante, poche specie non pericolose che vagano indifferentemente fra costa e conca, almeno una derivata da specie terrestri e una derivata da specie marine (ad esempio dai gabbiani e dalle razze o sogliole che hanno imparato a volare)
+La specie della conca di grande taglia addomesticabile e usabile per trasporto ma pericolosa se attaccata allo stato selvatico potrebbe essere derivata dal granchio blu, diventando un sostituto dei mirelurk di Fallout.
+Una specie della costa e della conca di piccola taglia potrebbe essere il granchio normale, grandezza simile a quella di un pollo.
+Prova a farmi un elenco di quattro o cinque animali per tipo, con relativi nomi possibili in italiano e inglese, a partire dalla attuale fauna terrestre e marittima del delta del Po, controllando la fattibilità in Godot con asset free (indicandoli).
+Come esempio ricordo che la fauna terrestre attuale di grandi dimensioni nel delta del Po comprende cavalli, bovini, daini, cervi e cinghiali ma nulla vieta che una lepre per effetto delle mutazioni ingrandisci e diventi pericolosa.
+Non dimenticarti delle anguille.
+Dammi tutto in forma di lore stile Fallout, tenendo conto che la causa della mutazione sono un certo tipo di Eliobionti.
+ChatGPT ha detto:
+
+Perfetto.
+Ecco un documento di lore completo, in stile Fallout, che introduce la fauna mutata della Conca e della Costa, includendo:
+
+    nomi in italiano e inglese
+
+    spiegazione biologica basata sugli Eliobionti
+
+    tipologie: grandi addomesticabili, grandi pericolose, piccole, fauna volante
+
+    asset gratuiti compatibili con Godot (modelli 3D, animazioni)
+
+    coerenza con la fauna reale del Delta del Po (cavalli, daini, cinghiali, granchi, anguille, ecc.)
+
+📘 DOSSIER DI LORE – FAUNA MUTATA DELLA CONCA
+
+Archivio: Università di Bononia – Dipartimento di Mutazionologia Eliobiontica
+Livello di Accesso: Verde-2 – Rischio Biologico Moderato
+🜸 INTRODUZIONE
+
+Dopo la Grande Notte del ’77, l’essiccamento dell’Adriatico e la diffusione incontrollata degli Eliobionti, la costa e la Conca hanno sviluppato due ecosistemi distinti:
+
+    La Costa → umida, salmastra, piena di acquitrini e foreste di pioppi altissimi
+
+    La Conca → sabbia viva, calore micidiale, zone di risonanza eliobiontica altissima
+
+La fauna locale si è adattata in modo brutale.
+
+Ogni mutazione segue tre regole degli Eliobionti:
+
+    Amplificazione metabolica (animale più grande o forte).
+
+    Risonanza epidermica (pelle più dura, scaglie, esoscheletri).
+
+    Alterazione comportamentale (iper-territorialità o iper-docilità selettiva).
+
+🦴 SEZIONE 1 – FAUNA DELLA CONCA (DESERTO DELLA VASCA)
+A – Grandi Creature della Conca
+
+Una addomesticabile (simile a brahmin / mirelurk), altre pericolose.
+⭐ 1) GRANCHIO TITANICO / TITAN CRAB
+
+(Addomesticabile – pericoloso allo stato selvatico)
+Derivato dal Granchio Blu – Callinectes sapidus
+
+Il simbolo vivente della Conca.
+Gli Eliobionti hanno trasformato il granchio blu in un mostro alto 2,5 metri e largo quasi 4.
+Caratteristiche:
+
+    guscio a scaglie eliobiontiche, durissimo come ceramica
+
+    six-limb locomotion (si muove sorprendentemente veloce sulla sabbia)
+
+    può trasportare carichi da soma
+
+    se allevato da cucciolo, diventa docile come un cammello
+
+Varianti:
+
+    Titan Crab Selvatico → Predatoriale, territorialissimo
+
+    Titan Crab da Carico → Usato dai Dunei e Reietti delle Sabbie
+
+Asset compatibili:
+
+    Quaternius Crab Monster (CC0)
+
+    Kenney Creature Pack – Base Crustacean
+
+    Mixamo: “Crab Monster” → riggabile e animabile
+
+2) LEPRE COLLOSSALE / DUNE JACK
+
+(Mutazione della Lepre comune – Lepus europaeus)
+
+Le lepri della Conca, intrise di Eliobionti, hanno raggiunto le dimensioni di un mastino, con artigli affilati per scavare tane nella sabbia.
+
+Comportamento:
+
+    evasivo finché non ferito
+
+    attacchi rapidi e improvvisi
+
+    carne molto nutriente e molto richiesta dai Dunei
+
+Asset free:
+
+    Quaternius – Mammal Pack (con modding o retexture)
+
+    PolyPizza – Rabbit Mutant
+
+3) VERME ELIOSABBIA / SUNSAND WORM
+
+(Mutazione dell’Anguilla di fiume – Anguilla anguilla)
+
+Le anguille, intrappolate nei fondali essiccati, si sono evolute come vermi scavatori che “nuotano” nella sabbia.
+
+Dimensioni: 3–6 metri.
+Pericolosità: altissima.
+Non domesticabile.
+
+Asset free:
+
+    Kenney – Worm Monster
+
+    PolyPizza – Sand Worm
+
+4) CINGHIALO / RAZORHOG
+
+(Cinghiale europeo – Sus scrofa)
+
+Cinghiale mutato, pelle indurita dalla risonanza eliobiontica, zanne curve, comportamento estremamente aggressivo.
+
+Non domesticabile.
+
+Asset free:
+
+    Mixamo → “Boar” (community models)
+
+    Quaternius Animal Pack → Boar
+
+5) TRITONE CORIACEO / SCALER NEWT
+
+(Tritone punteggiato – Lissotriton vulgaris)
+
+Mutazione piccola ma velenosa.
+Il tritone si è inspessito, diventando un rettile scheletrato da 80 cm.
+
+Asset free:
+
+    Kenney Creature Pack — lizard base model
+
+🐚 B – Piccola Fauna della Conca (quasi sempre non pericolosa, risorse utili)
+1) MINIGRANCHI / PEBBLE-CRABS
+
+(Granchio comune)
+Piccoli come un pollo, allevati per carne, gusci e chitina eliobiontica.
+2) TAMARSI / SAND HENS
+
+(Germano reale / gallinella)
+Uccelli terricoli che hanno perso la capacità di volare e vivono in tane fresche.
+3) CICALI / CHITTERBUGS
+
+(Cicala del Delta)
+Ottime come fonte proteica. Non pericolose.
+4) FOSCHERELLE / SHADE SCUTTLES
+
+(Aracnidi mutati – tipo ragno di palude)
+Non aggressive, producono seta resistente usata dai Dunei.
+5) MINIANGUILLE / FLICKER EELS
+
+(Anguilla mutata)
+Larve di verme Eliosabbia, innocue e usate come bait o alimento.
+
+Asset free:
+
+    Quaternius Tiny Creatures
+
+    Kenney Bug Pack
+
+    PolyPizza Small Animals
+
+🌿 SEZIONE 2 – FAUNA DELLA COSTA (PALUDI, CANNETI, FORESTE)
+🐗 A – Grandi Creature della Costa
+⭐ 1) DAINO RISONANTE / RESONANCE STAG
+
+(daino europeo – Dama dama)
+
+Il daino è stato alterato dagli Eliobionti in modo da avere corna luminescenti nella notte e un istinto aggressivo durante l’esposizione a risonanza.
+
+Molto pericoloso, non domesticabile.
+
+Asset free:
+
+    Quaternius Deer
+
+    Mixamo “Stag” (community)
+
+⭐ 2) CAVALLO RADICANTE / ROOTED STEED
+
+(cavallo del Delta)
+
+Nonostante l’esposizione agli Eliobionti, alcuni cavalli si sono adattati senza diventare feroci.
+
+Molti nella Costa li usano come montatura.
+Furbi, veloci, ottimi per lunghe distanze.
+
+Questa specie è la controparte “normale” del Titan Crab per i gruppi costieri.
+
+Asset free:
+
+    Quaternius Horse (CC0)
+
+    Mixamo riggabile horse models
+
+3) CINGHIOSTRALE / STORMBOAR
+
+(cinghiale europeo)
+
+Versione costiera, più massiccia, resistente all’acqua salmastra.
+Attacca in gruppo.
+
+Asset free:
+
+    Quaternius
+
+4) BOVAX / MUDBURST OX
+
+(bovino domestico)
+
+Bovini mutati adattati agli acquitrini, usati dai villaggi della Costa come bestie da macello e protezione.
+
+Asset free:
+
+    Quaternius Cow
+
+    Mixamo Ox (rig modding)
+
+🐀 B – Piccola Fauna della Costa
+1) RATTOPI / SWAMP RATS
+
+(topo muschiato)
+Sopravvissuti, fonte proteica.
+2) ANGUILLE SALMASTRE / BRINE EELS
+
+Evoluzione meno estrema delle anguille mutanti della Conca.
+3) CANNETTINI / REED-PUPS
+
+(nutrie del Delta)
+Allevate per la pelliccia radioprotettiva.
+4) LUMACHE GIGANTI / SALTSNAILS
+
+(Chiocciole terrestri)
+Con guscio ispessito usato per farmaci eliostatici.
+5) PIPISTRELLE RISONANTI / GLOWFLAPS
+
+Pipistrelli con membrana luminescente.
+
+Asset free:
+
+    Kenney Animals
+
+    Quaternius Mammals
+
+    PolyPizza small critters
+
+🕊️ SEZIONE 3 – FAUNA VOLANTE (Costa + Conca)
+Deve includere:
+
+    specie derivate da animali terrestri
+
+    specie derivate da animali marini
+
+⭐ 1) GABBIANI INFERI / SKULL GULLS
+
+(Gabbiano reale)
+Occhi scuri, ali più corte ma più veloci.
+Vivono ovunque, rubano tutto.
+Non pericolosi singolarmente.
+
+Asset free:
+
+    Kenney Birds
+
+    Quaternius Birds
+
+⭐ 2) RAZZALATE / STINGWINGS
+
+(Razza / Sogliola)
+Evolute in creature volanti plananti grazie a membrane eliobiontiche rigide come plastacciaio.
+
+Si nutrono di carogne e animali morenti nella Conca.
+
+Pericolose in gruppo.
+
+Asset free:
+
+    Mixamo Mutant Bat (ottima base)
+
+    Kenney Flying Creatures
+
+    PolyPizza Rays (moddabile)
+
+3) AIRTRITONI / SKY-NEWT
+
+(Tritoni mutati)
+Piccole creature anfibie che fluttuano per brevi periodi grazie a sacchi d’aria sotto la pelle.
+4) COLOMBE PIOMBO / LEAD-DOVES
+
+(Piccioni di città)
+Piume ispessite, immuni alla sabbia calda.
+Usati come messaggeri dai Reietti.
+5) FALCHI DEL FUOCO / FIREHAWKS
+
+(Falco di palude)
+Mutazione violenta: attaccano creature ferali attratti dalla risonanza eliobiontica.
+
+Asset free:
+
+    Kenney Falcon
+
+    Quaternius Raptors
+
+🧰 RIEPILOGO ASSET COMPATIBILI GODOT (FREE)
+Creati da Quaternius (CC0) – perfetti per Godot:
+
+✔ Animals Pack (deer, boar, cows, horse)
+✔ Mammals Pack
+✔ Creatures Pack (worms, crabs, insects)
+✔ Birds Pack
+Da Kenney Assets:
+
+✔ Animals
+✔ Birds
+✔ Creatures
+✔ Bug Pack
+Da Mixamo (gratis):
+
+✔ zombie creatures → ottime basi mutanti
+✔ rig per volatili
+✔ crab monsters
+✔ “giant monster” base riggabili
+Da PolyPizza:
+
+✔ crabs
+✔ birds
+✔ mutant beasts
+✔ insects
+🔥 Vuoi la versione definitiva?
+
+Posso produrre:
+
+✅ un Manuale Bestiario completo stile Fallout (PDF-ready)
+✅ parametri di gioco (HP, danni, pattern IA, rarità)
+✅ tabelle di spawn Costa/Conca
+✅ schede PNG da usare in Godot (mesh + collision + script AI)
+
+Vuoi procedere con uno di questi?
+Hai detto:
+Non considerare questa frase, è un commento, serve a me per gestire i salvataggi della chat: entrypoint006
+ChatGPT ha detto:
+
+Ricevuto — commento ignorato come richiesto.
+Hai detto:
+Non considerare questa frase, è un commento, serve a me per gestire i salvataggi della chat: entrypoint007
+ChatGPT ha detto:
+
+Ricevuto — commento ignorato come richiesto.
+
+
