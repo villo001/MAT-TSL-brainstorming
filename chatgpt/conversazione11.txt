@@ -1,0 +1,306 @@
+
+
+
+Hai detto:
+infine l'ultimo degli npc iconici di Fallout, i sintetici, come posso fare con Godot ad implementarli? Ovviamente i Gen3 saranno umani, ma i Gen1 e i Gen2? Servono anche nomi per evitare problemi di copyright, e una lore, magari sono sperimentazioni recenti dell'Università di Bononia
+ChatGPT ha detto:
+
+Ecco un pacchetto completo lore-friendly in stile Fallout + consigli tecnici per implementarli in Godot + nomi alternativi ai “Synth” per evitare copyright, mantenendo l’atmosfera Fallout.
+📘 Documento Lore – “Gli Artificiali di Bononia”
+
+(nome generico per sostituire “synth”)
+📜 Origine prebellica e postbellica
+
+Gli Artificiali sono il risultato di un programma di ricerca dell’Università di Bononia, in collaborazione con l’industria privata “Linea Automatica S.p.A.”, un’azienda modenese specializzata in robotica industriale prebellica. Gli ultimi anni prima delle bombe videro la nascita del Progetto ASTRÆUS, finalizzato alla creazione di personale artificiale capace di operare in ambienti contaminati o ostili.
+
+La guerra, l’arrivo degli Eliobionti, i blackout energetici e i saccheggi interruppero i test. Gli Artificiali in circolazione oggi sono rari e il loro stato varia pesantemente: alcuni funzionano perfettamente, altri sono corrotti dall’esposizione o dalle radiazioni.
+⚙️ Classi ufficiali (equivalenti a Synth Gen1, Gen2, Gen3)
+Gen0 – “I Prototipi” (ex Synth Gen1)
+
+Nomi alternativi:
+
+    ITA: Automi Alfa, Manichini Alfa, Proto-Servi
+
+    ENG: Alpha Automatons, Proto-Units, Early Frames
+
+Aspetto:
+Scheletri meccanici esposti, arti sottili o “a stantuffo”, testa con sensori multipli. Metallo scoperto, giunture rumorose.
+
+Funzione prebellica:
+Test funzionali per valutare stabilità del firmware ASTRÆUS. Usati per logistica interna, tute HAZMAT automatiche, trasporto carichi radioattivi.
+
+Personalità:
+Quasi nulla: routine di comportamento, comandi semplici, movimenti rigidi.
+
+Comportamento in gioco:
+
+    Lentamente ostili quando corrompiti
+
+    Identificabili subito come macchine
+
+    Animazioni meccaniche, movimenti bruschi
+
+Gen1 – “I Modelli Stratificati” (ex Synth Gen2)
+
+Nomi alternativi:
+
+    ITA: Repliche Strutturali, Modelli Stratificati, Frame Avanzati
+
+    ENG: Layered Replicas, Structured Frames, Advanced Units
+
+Aspetto:
+Ancora chiaramente robotici, ma con pannelli esterni in polimero, mimica facciale basica, occhi luminescenti. Struttura simile a un umano “industriale”.
+
+Funzione prebellica:
+Assistenza ai laboratori, lavori tecnici ad alta precisione, uso in scenari educativi e simulatori universitari.
+
+Personalità:
+Moduli comportamentali più complessi:
+
+    risposte predefinite
+
+    rudimentale imitazione emozionale
+
+    linguaggio funzionale
+
+Comportamento in gioco:
+
+    Più rapidi dei Gen0
+
+    Parzialmente stealth
+
+    Possono usare armi
+
+    Possono comunicare in modo minimale (“Attenzione… Identità non verificata…”)
+
+Gen2 – “Gli Integrati” (ex Synth Gen3)
+
+Nomi alternativi per sostituire “synth”:
+
+    ITA: Integrati, Umani Sintetici, Bio-Replica Gamma, Progetto Persona
+
+    ENG: Integrated Units, Bio-Replicas, Gamma Personas
+
+Aspetto:
+Indistinguibili dagli esseri umani. Pelle bio-sintetica, sangue artificiale, organi replicati. Alcuni sono più “perfetti” di umani postbellici.
+
+Funzione prebellica:
+Originally parte dei test finali del programma ASTRÆUS: personale medico, infiltrazione civile, simulazioni sociali per ambienti ostili.
+
+Lore opzionale:
+Alcuni non sanno nemmeno di essere artificiali.
+Questo apre a questline in stile Fallout senza copiare nulla.
+
+Comportamento in gioco:
+
+    Macchine perfette di infiltrazione
+
+    Nessuna animazione robotica
+
+    Si comportano come NPC umani
+
+    Possono attivare modalità “Protocollo ASTRÆUS” se minacciati: aumentano forza e mira
+
+🧠 Lore: Influenza degli Eliobionti sugli Artificiali
+
+Gli Eliobionti non possono “infettare” direttamente gli Artificiali, ma corrompono:
+
+    firmware
+
+    moduli comportamentali
+
+    protocolli di sicurezza
+    Creando tre possibili condizioni:
+
+    Deragliati (erratici ma non ostili)
+
+    Statici (si bloccano in loop)
+
+    Devastati (equivalenti dei synth corrotti — diventano ostili)
+
+🛠️ Come implementarli in Godot
+🎮 Gen0 (Automi Alfa)
+
+    Modelli: skeleton mec, mecha low poly, robot industriali
+
+    Necessitano animazioni robotiche rigide
+
+    In Godot:
+
+        Add Skeleton3D
+
+        Animazioni via AnimationPlayer o AnimationTree
+
+        Movimenti meccanici → utilizza curve con acceleration snap
+
+🎮 Gen1 (Repliche Strutturali)
+
+    Usa modelli robotici umanoidi con pannelli
+
+    Richiede blendspace per:
+
+        idle meccanico
+
+        turning robotico
+
+        walking con “peso industriale”
+
+🎮 Gen2 (Integrati / Bio-Replica Gamma)
+
+    Usa modelli umani realistici (anche Mixamo)
+
+    Implementazione:
+
+        Sistema d’IA sociale → StateMachine: Normal / Alert / Protocollo ASTRÆUS
+
+        Animazioni normali → identici agli NPC umani
+
+        Materiale speciale per dettagli: “pelle sintetica” → normal map + dettagli metallici sotto
+
+🔧 Asset GRATUITI consigliati (con link diretti)
+
+(tutti utilizzabili liberamente in Godot)
+🤖 Robot adatti per Gen0 e Gen1
+
+    Modular Sci-Fi Robot (gratuito)
+    https://assetstore.unity.com/packages/3d/characters/robots/modular-sci-fi-robot-96724
+
+
+(Unity asset, ma esportabile in Godot come FBX/GLB)
+
+Mixamo – robot gratuiti
+
+    https://www.mixamo.com/#/?page=1&type=Character&q=robot
+
+
+    Include:
+    Heavy, Brute, Mutant Robots, Androids, Mechs
+    (richiede solo account Adobe gratuito, niente abbonamento)
+
+Kenney Robot Pack (CC0)
+https://kenney.nl/assets?q=robot
+
+
+Ottimi per Gen0, anche low poly.
+
+Free Android Robot
+https://www.cgtrader.com/free-3d-models/character/sci-fi/android-robot-34
+
+
+    Perfetto per Gen1.
+
+🧑‍🦳 Modelli umani (per Gen2 / Integrati)
+
+(Usabili sia come umani veri sia come umanoidi sintetici)
+
+    Mixamo Characters (gratis)
+    https://www.mixamo.com/#/?page=1&type=Character
+
+
+Qualunque umanoide → Gen2
+
+“Male Base Mesh” FREE (Blender / Godot)
+https://www.blenderkit.com/asset-gallery?query=robot%20free&type=character
+
+
+(usabile senza account dopo setup BlenderKit)
+
+CGTrader Free Humans
+https://www.cgtrader.com/free-3d-models?keywords=human
+
+
+    Scegli asset low/mid poly.
+
+🧩 Come evitare problemi di Copyright
+
+Finché non usi la parola Synth
+e non copi design specifici dell’Istituto di Fallout, sei completamente al sicuro.
+
+Quindi sostituisci sempre:
+
+    Synth Gen1 → Automi Alfa
+
+    Synth Gen2 → Repliche Strutturali
+
+    Synth Gen3 → Integrati / Bio-Repliche Gamma
+
+E il “Commonwealth Institute of Technology (CIT)” con:
+
+    Laboratori ASTRÆUS – Università di Bononia
+
+🎯 Vuoi anche:
+
+    schede complete delle tre generazioni stile “scheda Pip-Boy”?
+
+    un diagramma delle loro parti interne (stile fallout terminal)?
+
+    un mini-DLC esplicativo sulla loro origine?
+
+Posso generare tutto.
+Hai detto:
+gli asset che si trovano su
+
+https://www.mixamo.com/#/?page=1&type=Character
+
+esattamente cosa contengono?
+sono a digiuno dell'argomento: sono "completi" ossia non è possibile modificar eil vestiario oppure sono modificabili, tipo mettere un vestiario diverso, ecc...? Contengono già le animazioni?
+ChatGPT ha detto:
+
+Ottima domanda. Ecco una spiegazione chiara di cosa fornisce Mixamo (quando vai su Character) e cosa puoi / non puoi fare con quei modelli + animazioni — utile per decidere come usarli in Godot.
+Cosa contiene Mixamo nella sezione Character
+
+    Modelli 3D riggati
+
+        Mixamo ha una libreria di personaggi “Character” che puoi scegliere (umanoidi, androidi, robot) e riggare con uno scheletro standard.
+
+        Puoi anche caricare un tuo modello 3D (in formato .fbx, .obj, .zip) su Mixamo, che crea automaticamente un rig (scheletro) su di esso.
+        Centro assistenza Adobe+1
+
+        Il rigging automatico funziona solo su modelli “umanoidi” (Mixamo richiede che ci siano testa, corpo, braccia e gambe distinguibili).
+        Centro assistenza Adobe+1
+
+    Animazioni
+
+        Mixamo ha una libreria molto vasta di animazioni: camminare, correre, attaccare, saltare, idle, pose, ecc.
+        Centro assistenza Adobe+1
+
+        Puoi applicare qualsiasi animazione disponibile a qualsiasi modello riggato su Mixamo, e modificare parametri come velocità, offset degli arti, ecc.
+        Centro assistenza Adobe
+
+        Quando scarichi, puoi scegliere di includere il “Skin” (mesh + ossatura) oppure solo l’animazione / solo le ossa (dipende dalle tue necessità).
+
+    Rig personalizzato
+
+        Se carichi un modello tuo (non riggato) in Mixamo, puoi riggarlo automaticamente usando i marker (ti chiede di posizionare punti sugli arti, ginocchia, gomiti, ecc.).
+        Centro assistenza Adobe
+
+        Il rig risultante è compatibile con le animazioni di Mixamo (usa uno scheletro “standard”), quindi puoi applicare le animazioni senza problemi.
+
+Limiti e cosa non puoi fare facilmente su Mixamo
+
+    Vestiti / abbigliamento complesso: Mixamo non ha un sistema “di vestiti modulari” complessi (tipo layer di abbigliamento). Se vuoi mettere vestiti personalizzati sul modello, spesso devi farlo in Blender o un altro programma: ad esempio, puoi importare il modello riggato + l’animazione di Mixamo in Blender, poi aggiungere vestiti e fare il “weight painting” per i vestiti in modo che seguano il rig. Molti fanno così.
+    Reddit+1
+
+    Non supporta animazioni per modelli non bipedi / non umanoidi: la libreria auto-rigger di Mixamo funziona solo per “humanoid bipedi” secondo la documentazione.
+    Centro assistenza Adobe+1
+
+    Storia delle versioni + salvataggio: Mixamo salva solo l’ultimo personaggio usato nella sessione, quindi è una buona pratica salvare localmente il rig + il modello se vuoi riusarli da lì.
+    Centro assistenza Adobe
+
+Riassunto pratico per Godot
+
+    Sì, puoi prendere un modello da Mixamo + animazioni + scaricarli → importarli in Godot (es FBX → Blender → GLB → Godot)
+
+    Se vuoi cambiare l’abbigliamento, potresti farlo in Blender prima di scaricare da Mixamo, oppure sovrapporre mesh “vestiti” riggati al rig di Mixamo
+
+    Le animazioni sono già incluse nella libreria: non hai bisogno di crearle tutte da zero
+
+    Usa AnimationPlayer / AnimationTree in Godot per gestire gli stati (idle, walk, attack…)
+
+Se vuoi, posso darti una selezione di 20 animazioni Mixamo perfette per un gioco stile Fallout (combattimento, camminata, morire, ferire, ecc.) + un workflow consigliato per importarle in Godot. Vuoi che lo faccia?
+Hai detto:
+Non considerare questa frase, è un commento, serve a me per gestire i salvataggi della chat: entrypoint011
+
+
+
+
