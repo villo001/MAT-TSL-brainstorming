@@ -237,9 +237,9 @@ Uso in gioco: NPC tecnologici con dialogo, quest secondarie; obiettivi di salvat
 
 Asset consigliati (per corpo / chassis e per visual):
 
-Quaternius – Animated Robot (buona base per chassis + rig). https://quaternius.com/packs/animatedrobot.html
+Quaternius – Animated Robot (buona base per chassis + rig). [https://quaternius.com/packs/animatedrobot.html](https://quaternius.com/packs/animatedrobot.html)
 
-Direct download (mirror poly.pizza): https://poly.pizza/m/QCm7qe9uNJ
+Direct download (mirror poly.pizza): [https://poly.pizza/m/QCm7qe9uNJ](https://poly.pizza/m/QCm7qe9uNJ)
 
 Implementazione: usa un piccolo nodo MeshInstance3D per chassis + un node per “core” visibile (lamp/particle). L’IA del Cogitatore è una FSM avanzata (dialoghi, comandi di gruppo).
 
@@ -251,9 +251,9 @@ Ruolo lore: robot multi-braccio per manutenzione, pulizia e piccole riparazioni;
 
 Asset consigliati: Quaternius Animated Robot (aggiungi bracci multipli / animator).
 
-Quaternius Animated Robot — https://quaternius.com/packs/animatedrobot.html
+Quaternius Animated Robot — [https://quaternius.com/packs/animatedrobot.html](https://quaternius.com/packs/animatedrobot.html)
 
-poly.pizza mirror: https://poly.pizza/m/QCm7qe9uNJ
+poly.pizza mirror: [https://poly.pizza/m/QCm7qe9uNJ](https://poly.pizza/m/QCm7qe9uNJ)
 
 Implementazione: prendi il modello base, aggiungi ossature per bracci extra in Blender, esporta .glb; in Godot il movimento dei bracci può essere gestito con AnimationTree + IK per prese contestuali.
 
@@ -265,7 +265,7 @@ Ruolo lore: guardie civili e industriali, robuste, programmabili per pattugliame
 
 Asset consigliati: Kenney Robot Pack — ottima base bipede/modulare CC0.
 
-Kenney – Robot Pack — https://kenney.nl/assets/robot-pack
+Kenney – Robot Pack — [https://kenney.nl/assets/robot-pack](https://kenney.nl/assets/robot-pack)
 
 Implementazione: i modelli Kenney sono già pronti; usa AnimationTree per blend (idle→walk→attack). Usa NavigationAgent3D e BehaviorTree/StateMachine per AI.
 
@@ -277,7 +277,7 @@ Ruolo lore: unità progettate per interventi rapidi in impianti; bipedi agili co
 
 Asset consigliati: Mixamo — modelli e animazioni “robot warrior” o “brute/fighter” (si applicano animazioni di corsa/attacco di alta qualità). (Mixamo richiede account Adobe per scaricare gli asset; account gratuito sufficiente.)
 
-Mixamo (catalogo animazioni/modelli) — https://www.mixamo.com/
+Mixamo (catalogo animazioni/modelli) — [https://www.mixamo.com/](https://www.mixamo.com/)
 
 Implementazione: scarica bipede riggato + animazioni (attack combos, dash). In Godot, gestisci hitboxes e combo con AnimationPlayer e segnali.
 
@@ -289,9 +289,9 @@ Ruolo lore: robot pesanti per difesa impianti e sollevamento, spesso montati su 
 
 Asset consigliati: Quaternius – Animated Mech Pack (mech pesanti e animati; ottima base).
 
-Quaternius – Animated Mech Pack — https://quaternius.com/packs/animatedmech.html
+Quaternius – Animated Mech Pack — [https://quaternius.com/packs/animatedmech.html](https://quaternius.com/packs/animatedmech.html)
 
-Mirror / download GLTF/FBX: https://poly.pizza/bundle/Ultimate-Space-Kit-YWh743lqGX
+Mirror / download GLTF/FBX: [https://poly.pizza/bundle/Ultimate-Space-Kit-YWh743lqGX](https://poly.pizza/bundle/Ultimate-Space-Kit-YWh743lqGX)
 
 Implementazione: usa CollisionShapes per torso e gambe; gestisci diverse fazioni di Sentinella (attiva / dormiente). Per Sentry stazionari, usa Area3D detection + turrets.
 
@@ -303,9 +303,9 @@ Ruolo lore: droni volanti per ricognizione, propaganda e drop logistici. Prodott
 
 Asset consigliati: Poly.pizza / Kenney drone assets (modelli volanti pronti).
 
-Drone (poly.pizza) — https://poly.pizza/m/DNbUoMtG3H
+Drone (poly.pizza) — [https://poly.pizza/m/DNbUoMtG3H](https://poly.pizza/m/DNbUoMtG3H)
 
-Kenney Drone / Space kit — https://kenney.nl/assets (cerca “drone” sul sito).
+Kenney Drone / Space kit — [https://kenney.nl/assets](https://kenney.nl/assets) cerca “drone” sul sito.
 
 Implementazione: CharacterBody3D o Custom Physics for flight; use raycasts for ground detection and navigation via waypoints.
 
@@ -317,31 +317,31 @@ Ruolo lore: moduli IA isolati installati in stazioni di controllo; molti esiston
 
 Asset consigliati: usa chassis Quaternius Animated Robot / Robot Enemy Large per il corpo del container o server-frame.
 
-Quaternius – Robot Enemy Large (poly.pizza) — https://poly.pizza/m/mPDR0L5uKx
+Quaternius – Robot Enemy Large (poly.pizza) — [https://poly.pizza/m/mPDR0L5uKx](https://poly.pizza/m/mPDR0L5uKx)
 
 ### LINK DIRETTI AGLI ASSET (download / pagine asset verificati)
 
 Nota: tutti i link sottostanti sono alle pagine da cui puoi scaricare gli asset (formati FBX/GLTF/GLB) o alle pagine ufficiali degli autori.
 
-Quaternius – Animated Robot (pack / page) https://quaternius.com/packs/animatedrobot.html
+Quaternius – Animated Robot (pack / page) [https://quaternius.com/packs/animatedrobot.html](https://quaternius.com/packs/animatedrobot.html)
 
-Mirror (poly.pizza download): https://poly.pizza/m/QCm7qe9uNJ
+Mirror (poly.pizza download): [https://poly.pizza/m/QCm7qe9uNJ](https://poly.pizza/m/QCm7qe9uNJ)
 
-Quaternius – Animated Mech Pack (mech pesanti) https://quaternius.com/packs/animatedmech.html
+Quaternius – Animated Mech Pack (mech pesanti) [https://quaternius.com/packs/animatedmech.html](https://quaternius.com/packs/animatedmech.html)
 
-Quaternius – Robot Enemy Large (direct) https://poly.pizza/m/mPDR0L5uKx
+Quaternius – Robot Enemy Large (direct) [https://poly.pizza/m/mPDR0L5uKx](https://poly.pizza/m/mPDR0L5uKx)
 
-Quaternius – Ultimate Space Kit (bundle with many mech/robot) https://poly.pizza/bundle/Ultimate-Space-Kit-YWh743lqGX
+Quaternius – Ultimate Space Kit (bundle with many mech/robot) [https://poly.pizza/bundle/Ultimate-Space-Kit-YWh743lqGX](https://poly.pizza/bundle/Ultimate-Space-Kit-YWh743lqGX)
 
-Kenney – Robot Pack (CC0) https://kenney.nl/assets/robot-pack
+Kenney – Robot Pack (CC0) [https://kenney.nl/assets/robot-pack](https://kenney.nl/assets/robot-pack)
 
-Kenney – Assets home (browse drones, kits) https://kenney.nl/assets
+Kenney – Assets home (browse drones, kits) [https://kenney.nl/assets](https://kenney.nl/assets)
 
-Mixamo – characters & animations (requires free Adobe ID to download) https://www.mixamo.com/
+Mixamo – characters & animations (requires free Adobe ID to download) [https://www.mixamo.com/](https://www.mixamo.com/)
 
-Poly.pizza – Drone models (search/download) https://poly.pizza/search/Drone (or specific drone example) https://poly.pizza/m/DNbUoMtG3H
+Poly.pizza – Drone models (search/download) [https://poly.pizza/search/Drone](https://poly.pizza/search/Drone) oppure per un esempio specifico  [https://poly.pizza/m/DNbUoMtG3H](https://poly.pizza/m/DNbUoMtG3H)
 
-Quaternius on itch.io (alternative mirrors / packs) https://quaternius.itch.io/
+Quaternius on itch.io (alternative mirrors / packs) [https://quaternius.itch.io/](https://quaternius.itch.io/)
 
 ### NOTE SULLA LICENZA E SULLO USO
 
@@ -368,17 +368,17 @@ Audio: effetti metallici, idling servomotori e toni da synth (Kenney / Mixkit / 
 
 Esempio di mapping rapido (classe → asset consigliato)
 
-Cogitator / Robocervello → Quaternius Animated Robot + custom UI core. https://quaternius.com/packs/animatedrobot.html
+Cogitator / Robocervello → Quaternius Animated Robot + custom UI core. [https://quaternius.com/packs/animatedrobot.html](https://quaternius.com/packs/animatedrobot.html)
 
-Manutentore (Mr.Handy-like) → Quaternius Animated Robot (aggiungi bracci) / mix with small prop packs. https://poly.pizza/m/QCm7qe9uNJ
+Manutentore (Mr.Handy-like) → Quaternius Animated Robot (aggiungi bracci) / mix with small prop packs. [https://poly.pizza/m/QCm7qe9uNJ](https://poly.pizza/m/QCm7qe9uNJ)
 
-Protettore (Protectron-like) → Kenney Robot Pack (bipedi modulari). https://kenney.nl/assets/robot-pack
+Protettore (Protectron-like) → Kenney Robot Pack (bipedi modulari). [https://kenney.nl/assets/robot-pack](https://kenney.nl/assets/robot-pack)
 
-Assaltore (Assaultron-like) → Mixamo robot warrior + animations. https://www.mixamo.com/
+Assaltore (Assaultron-like) → Mixamo robot warrior + animations. [https://www.mixamo.com/](https://www.mixamo.com/)
 
-Sentinella (Sentry Bot-like) → Quaternius Animated Mech Pack. https://quaternius.com/packs/animatedmech.html
+Sentinella (Sentry Bot-like) → Quaternius Animated Mech Pack. [https://quaternius.com/packs/animatedmech.html](https://quaternius.com/packs/animatedmech.html)
 
-Occhio (Eyebot-like) → Poly.pizza / Kenney drone assets. https://poly.pizza/m/DNbUoMtG3H
+Occhio (Eyebot-like) → Poly.pizza / Kenney drone assets. [https://poly.pizza/m/DNbUoMtG3H](https://poly.pizza/m/DNbUoMtG3H)
 
 Vuoi che:
 
