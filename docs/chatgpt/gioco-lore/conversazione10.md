@@ -10,13 +10,10 @@ Sì — esistono asset totalmente gratuiti e Godot-friendly che puoi usare come 
 
 Di seguito ti preparo:
 
-    Panoramica tecnica su Godot + robot
-
-    Elenco asset 100% free utilizzabili (mech, robot bipedi, droni, spider-bots, animazioni)
-
-    Uso pratico dei modelli in Godot
-
-    Suggerimenti per creare una “robotica” del tuo universo
+- Panoramica tecnica su Godot + robot
+- Elenco asset 100% free utilizzabili (mech, robot bipedi, droni, spider-bots, animazioni)
+- Uso pratico dei modelli in Godot
+- Suggerimenti per creare una “robotica” del tuo universo
 
 ## 1. Panoramica tecnica: robot in Godot
 
@@ -24,13 +21,10 @@ Godot gestisce benissimo asset robotici purché siano riggati e animati.
 
 Con modelli gratuiti puoi ottenere:
 
-    robots bipedi → per equivalenti dei Protectron / Assaultron
-
-    droni volanti → per equivalenti Eyebot
-
-    spider-bots → per ruoli tipo sentinelle
-
-    mech pesanti → per ruoli tipo Sentry Bot
+- robots bipedi → per equivalenti dei Protectron / Assaultron
+- droni volanti → per equivalenti Eyebot
+- spider-bots → per ruoli tipo sentinelle
+- mech pesanti → per ruoli tipo Sentry Bot
 
 Questi asset sono quasi tutti disponibili in formato .glb, perfetti per Godot.
 
@@ -38,93 +32,76 @@ Questi asset sono quasi tutti disponibili in formato .glb, perfetti per Godot.
 
 Sotto trovi solo asset gratis e utilizzabili senza copyright risk.
 
-ROBOT BIPEDI / HUMANOID (Protectron / Assaultron style)
+### ROBOT BIPEDI / HUMANOID (Protectron / Assaultron style)
 
 1) “Robot Humanoid” – Kenney.nl
 
-    Gratis, CC0.
-
-    Stile semplice ma facilmente re-skinnabile.
-
-    Perfetto come base per “custodi/guardie”.
+- Gratis, CC0.
+- Stile semplice ma facilmente re-skinnabile.
+- Perfetto come base per “custodi/guardie”.
 
 Cercalo: Kenney Robot Kit / Robot pack.
 
 2) Adobe Mixamo — Robot Warrior, Kachujin Armor, Xbot, ecc.
 
-    Gratis (basta account Adobe → solo iscrizione, nessun abbonamento).
-
-    Decine di animazioni incluse (run, idle, combat, punch, dodge…).
-
-    Esporti i modelli e le animazioni in .fbx → converti in .glb.
+- Gratis (basta account Adobe → solo iscrizione, nessun abbonamento).
+- Decine di animazioni incluse (run, idle, combat, punch, dodge…).
+- Esporti i modelli e le animazioni in .fbx → converti in .glb.
 
 Perfetti per robot agili/assaltatori.
 
-DRONI VOLANTI / EYEBOT-LIKE
+### DRONI VOLANTI / EYEBOT-LIKE
 
 3) Kenney – “Space Kit / Drone”
 
-    Drone sferico o leggero, perfetto per pattugliamento.
-
-    CC0, quindi riutilizzabile liberamente.
+- Drone sferico o leggero, perfetto per pattugliamento.
+- CC0, quindi riutilizzabile liberamente.
 
 4) PolyPizza Free – “Sci-fi Drone”, “Surveillance Drone”
 
-    Tutti riggati o facilmente riggabili.
+- Tutti riggati o facilmente riggabili.
+- Ottimi come ricognitori non combattivi o guardie leggere.
 
-    Ottimi come ricognitori non combattivi o guardie leggere.
-
-SPIDER-BOTS (Ottimi per pattuglie terrestri urbane)
+### SPIDER-BOTS (Ottimi per pattuglie terrestri urbane)
 
 5) Quaternius – “Mech Spider”
 
-    Completamente gratuito, già riggato.
+- Completamente gratuito, già riggato.
+- Facile da adattare a stili “Fallout-like”.
 
-    Facile da adattare a stili “Fallout-like”.
-
-MECH / HEAVY ROBOTS (Equivalenti Sentry Bot)
+### MECH / HEAVY ROBOTS (Equivalenti Sentry Bot)
 
 6) Quaternius – “Mech Pack”
 
-    Diversi mech pesanti, CC0.
-
-    Riggati e con animazioni base.
-
-    Idea perfetta per robot militari ancora attivi nel Wasteland padano.
+- Diversi mech pesanti, CC0.
+- Riggati e con animazioni base.
+- Idea perfetta per robot militari ancora attivi nel Wasteland padano.
 
 7) PolyHaven / PolyPizza – “Industrial Mech”
 
-    Ottimo come robot da costruzione o difesa stazionaria.
+- Ottimo come robot da costruzione o difesa stazionaria.
+- Tutti free.
 
-    Tutti free.
-
-KIT DI COMPONENTI PER FARE I TUOI ROBOT
+### KIT DI COMPONENTI PER FARE I TUOI ROBOT
 
 8) Kenney – “Shapes / Synty-like Robot Kit”
 
-    Componenti modulari (teste, braccia, pannelli).
-
-    Ci costruisci robot unici senza rischi di copyright.
+- Componenti modulari (teste, braccia, pannelli).
+- Ci costruisci robot unici senza rischi di copyright.
 
 9) Quaternius – “Modular Robot Pack”
 
-    Tanti pezzi già pronti: arti, toraci, ottiche, antenne.
-
-    Ideale per creare più classi robotiche senza ripetizioni.
+- Tanti pezzi già pronti: arti, toraci, ottiche, antenne.
+- Ideale per creare più classi robotiche senza ripetizioni.
 
 ## 3. Come usarli in Godot
 
-    Importa .glb / .fbx → abilita “Import With Animations”.
-
-    Crea AnimationTree per blending (idle → walk → attack).
-
-    Collega State Machine (detection, combat, flee, offline).
-
-    Aggiungi hitboxes separate (testa, torso, sensori, ecc.)
-
-    Usa shader metallici (Godot 4 supporta PBR nativamente).
-
-    Per i robot volanti → nodo CharacterBody3D + script di hovering.
+- Importa .glb / .fbx → abilita “Import With Animations”.
+- Crea AnimationTree per blending (idle → walk → attack).
+- Collega State Machine (detection, combat, flee, offline).
+- Aggiungi hitboxes separate (testa, torso, sensori, ecc.)
+- Usa shader metallici (Godot 4 supporta PBR nativamente).
+- Per i robot volanti → nodo CharacterBody3D + script di hovering.
 
 ## 4. Lore robotica per il tuo universo (stile Fallout)
 
@@ -134,13 +111,10 @@ Prima della Guerra Padana dei 30 Anni, Bononia e Venetia erano i principali poli
 
 La “Packaging Valley” aveva sviluppato robot destinati a:
 
-    movimentazione merci
-
-    supporto alle filiere alimentari
-
-    operazioni subacquee nella Conca
-
-    sorveglianza delle rotte commerciali
+- movimentazione merci
+- supporto alle filiere alimentari
+- operazioni subacquee nella Conca
+- sorveglianza delle rotte commerciali
 
 Quando gli Eliobionti cominciarono a diffondersi, molti sistemi ottici e sensoriali robotici ne furono contaminati, generando comportamenti imprevedibili: alcuni robot divennero estremamente aggressivi, altri “semi-coscienti”, altri ancora rimasero bloccati in protocolli di lavoro ormai privi di senso.
 
@@ -150,81 +124,64 @@ Quando gli Eliobionti cominciarono a diffondersi, molti sistemi ottici e sensori
 
 Derivati dai Kenney + Mixamo Humanoid robot
 
-    Usati un tempo per controlli sanitari e industriali.
-
-    Oggi pattugliano rovine e vecchi complessi.
-
-    Aggressività media, ma possono riconoscere il giocatore come “civile autorizzato” con test adeguato.
+- Usati un tempo per controlli sanitari e industriali.
+- Oggi pattugliano rovine e vecchi complessi.
+- Aggressività media, ma possono riconoscere il giocatore come “civile autorizzato” con test adeguato.
 
 Nomi
 
-– Custodi
-
-– Semafori Meccanici
-
-– Sorvegliatori
-
-– Vigilanti Ferroviari
+- Custodi
+- Semafori Meccanici
+- Sorvegliatori
+- Vigilanti Ferroviari
 
 2) DRONES OTTICI (Eyebot-like)
 
 Basati su Kenney Drone o Sci-Fi Drone
 
-    Usati per propaganda durante la Guerra Padana.
-
-    Ora trasmettono solo loop di registrazioni rotte.
-
-    Raramente attaccano: di solito “marcano” il giocatore a distanza.
+- Usati per propaganda durante la Guerra Padana.
+- Ora trasmettono solo loop di registrazioni rotte.
+- Raramente attaccano: di solito “marcano” il giocatore a distanza.
 
 Nomi
 
-– Occhionauti
-
-– Sferidi
-
-– Spie Meccaniche
-
-– Ronziatori
+- Occhionauti
+- Sferidi
+- Spie Meccaniche
+- Ronziatori
 
 3) RAGNI MECCANICI (Spider-bots)
 
 Basati su Quaternius Mech Spider
 
-    Usati come manutentori fognari e subacquei nella Conca.
-
-    Corazze dure ma movimenti prevedibili.
+- Usati come manutentori fognari e subacquei nella Conca.
+- Corazze dure ma movimenti prevedibili.
 
 Nomi
 
-– Idroragni
-
-– Aracnomec
-
-– Pulitori Automatici
+- Idroragni
+- Aracnomec
+- Pulitori Automatici
 
 4) MECH PESANTI (Sentry Bot-like)
 
 Derivati da Quaternius Mech Pack
 
-    Ex robot militari o industriali da sollevamento carichi.
-
-    Oggi sono le “bestie nere” della Costa.
-
-    Spesso installati a guardia di rovine universitari o depositi bellici.
+- Ex robot militari o industriali da sollevamento carichi.
+- Oggi sono le “bestie nere” della Costa.
+- Spesso installati a guardia di rovine universitari o depositi bellici.
 
 Nomi
 
-– Ferratrox
-
-– Sollevatori Mk.IV
-
-– Corazzoni
-
-– Battimare (versioni anfibie)
+- Ferratrox
+- Sollevatori Mk.IV
+- Corazzoni
+- Battimare (versioni anfibie)
 
 ### Riassunto asset chiave da usare subito
 
 |Tipo robot|Asset gratuito consigliato|Note|
+||||
 |Bipedi / Guardie|Kenney Robot Pack, Mixamo Robot Warrior|Animazioni ampie e gratuite|
 |Droni volanti|Kenney Drone, PolyPizza Surveillance Drone|Ottimo per Eyebot-like|
 |Spider-bot|Quaternius Mech Spider|Riggato di default|
@@ -232,10 +189,11 @@ Nomi
 |Modular robot|Kenney / Quaternius Modular Packs|Per fare modelli unici|
 
 
-❓ Vuoi anche…
-✔️ Un documento lore-only completo sui robot in stile Fallout?
-✔️ Una classificazione per livelli (Rustici / Civili / Militari / Prototipi)?
-✔️ Una lista di “brand” fittizi padani (tipo RobCo) con storia e loghi?
+Vuoi anche…
+
+- Un documento lore-only completo sui robot in stile Fallout?
+- Una classificazione per livelli (Rustici / Civili / Militari / Prototipi)?
+- Una lista di “brand” fittizi padani (tipo RobCo) con storia e loghi?
 
 Dimmi cosa ti serve e lo costruisco.
 
@@ -264,9 +222,8 @@ Produzione principale: automazione per logistica, manifattura, gestione magazzin
 
 Linee guida sui nomi
 
-    Nome italiano (stile lore) — Nome inglese suggerito
-
-    Manteniamo evocativo ma originale (no termini direttamente presi da Bethesda).
+- Nome italiano (stile lore) — Nome inglese suggerito
+- Manteniamo evocativo ma originale (no termini direttamente presi da Bethesda).
 
 ### 1) ROBOCERVELLI (intelligenze a “nucleo”)
 
@@ -280,15 +237,9 @@ Uso in gioco: NPC tecnologici con dialogo, quest secondarie; obiettivi di salvat
 
 Asset consigliati (per corpo / chassis e per visual):
 
-    Quaternius – Animated Robot (buona base per chassis + rig).
-
-    https://quaternius.com/packs/animatedrobot.html
-
-quaternius.com
+Quaternius – Animated Robot (buona base per chassis + rig). https://quaternius.com/packs/animatedrobot.html
 
 Direct download (mirror poly.pizza): https://poly.pizza/m/QCm7qe9uNJ
-
-    poly.pizza
 
 Implementazione: usa un piccolo nodo MeshInstance3D per chassis + un node per “core” visibile (lamp/particle). L’IA del Cogitatore è una FSM avanzata (dialoghi, comandi di gruppo).
 
@@ -300,13 +251,9 @@ Ruolo lore: robot multi-braccio per manutenzione, pulizia e piccole riparazioni;
 
 Asset consigliati: Quaternius Animated Robot (aggiungi bracci multipli / animator).
 
-    Quaternius Animated Robot — https://quaternius.com/packs/animatedrobot.html
-
-quaternius.com
+Quaternius Animated Robot — https://quaternius.com/packs/animatedrobot.html
 
 poly.pizza mirror: https://poly.pizza/m/QCm7qe9uNJ
-
-    poly.pizza
 
 Implementazione: prendi il modello base, aggiungi ossature per bracci extra in Blender, esporta .glb; in Godot il movimento dei bracci può essere gestito con AnimationTree + IK per prese contestuali.
 
@@ -318,9 +265,7 @@ Ruolo lore: guardie civili e industriali, robuste, programmabili per pattugliame
 
 Asset consigliati: Kenney Robot Pack — ottima base bipede/modulare CC0.
 
-    Kenney – Robot Pack — https://kenney.nl/assets/robot-pack
-
-    kenney.nl
+Kenney – Robot Pack — https://kenney.nl/assets/robot-pack
 
 Implementazione: i modelli Kenney sono già pronti; usa AnimationTree per blend (idle→walk→attack). Usa NavigationAgent3D e BehaviorTree/StateMachine per AI.
 
@@ -332,9 +277,7 @@ Ruolo lore: unità progettate per interventi rapidi in impianti; bipedi agili co
 
 Asset consigliati: Mixamo — modelli e animazioni “robot warrior” o “brute/fighter” (si applicano animazioni di corsa/attacco di alta qualità). (Mixamo richiede account Adobe per scaricare gli asset; account gratuito sufficiente.)
 
-    Mixamo (catalogo animazioni/modelli) — https://www.mixamo.com/
-
-    mixamo.com
+Mixamo (catalogo animazioni/modelli) — https://www.mixamo.com/
 
 Implementazione: scarica bipede riggato + animazioni (attack combos, dash). In Godot, gestisci hitboxes e combo con AnimationPlayer e segnali.
 
@@ -346,15 +289,9 @@ Ruolo lore: robot pesanti per difesa impianti e sollevamento, spesso montati su 
 
 Asset consigliati: Quaternius – Animated Mech Pack (mech pesanti e animati; ottima base).
 
-    Quaternius – Animated Mech Pack — https://quaternius.com/packs/animatedmech.html
-
-quaternius.com
+Quaternius – Animated Mech Pack — https://quaternius.com/packs/animatedmech.html
 
 Mirror / download GLTF/FBX: https://poly.pizza/bundle/Ultimate-Space-Kit-YWh743lqGX
-
-    (contiene vari asset utili).
-
-    poly.pizza
 
 Implementazione: usa CollisionShapes per torso e gambe; gestisci diverse fazioni di Sentinella (attiva / dormiente). Per Sentry stazionari, usa Area3D detection + turrets.
 
@@ -366,14 +303,9 @@ Ruolo lore: droni volanti per ricognizione, propaganda e drop logistici. Prodott
 
 Asset consigliati: Poly.pizza / Kenney drone assets (modelli volanti pronti).
 
-    Drone (poly.pizza) — https://poly.pizza/m/DNbUoMtG3H
+Drone (poly.pizza) — https://poly.pizza/m/DNbUoMtG3H
 
-poly.pizza
-
-Kenney Drone / Space kit — https://kenney.nl/assets
-
-    (cerca “drone” sul sito).
-    kenney.nl+1
+Kenney Drone / Space kit — https://kenney.nl/assets (cerca “drone” sul sito).
 
 Implementazione: CharacterBody3D o Custom Physics for flight; use raycasts for ground detection and navigation via waypoints.
 
@@ -385,140 +317,73 @@ Ruolo lore: moduli IA isolati installati in stazioni di controllo; molti esiston
 
 Asset consigliati: usa chassis Quaternius Animated Robot / Robot Enemy Large per il corpo del container o server-frame.
 
-    Quaternius – Robot Enemy Large (poly.pizza) — https://poly.pizza/m/mPDR0L5uKx
-
-    poly.pizza
+Quaternius – Robot Enemy Large (poly.pizza) — https://poly.pizza/m/mPDR0L5uKx
 
 ### LINK DIRETTI AGLI ASSET (download / pagine asset verificati)
 
-    Nota: tutti i link sottostanti sono alle pagine da cui puoi scaricare gli asset (formati FBX/GLTF/GLB) o alle pagine ufficiali degli autori.
+Nota: tutti i link sottostanti sono alle pagine da cui puoi scaricare gli asset (formati FBX/GLTF/GLB) o alle pagine ufficiali degli autori.
 
-    Quaternius – Animated Robot (pack / page)
-
-    https://quaternius.com/packs/animatedrobot.html
-
-quaternius.com
+Quaternius – Animated Robot (pack / page) https://quaternius.com/packs/animatedrobot.html
 
 Mirror (poly.pizza download): https://poly.pizza/m/QCm7qe9uNJ
 
-poly.pizza
+Quaternius – Animated Mech Pack (mech pesanti) https://quaternius.com/packs/animatedmech.html
 
-Quaternius – Animated Mech Pack (mech pesanti)
+Quaternius – Robot Enemy Large (direct) https://poly.pizza/m/mPDR0L5uKx
 
-https://quaternius.com/packs/animatedmech.html
+Quaternius – Ultimate Space Kit (bundle with many mech/robot) https://poly.pizza/bundle/Ultimate-Space-Kit-YWh743lqGX
 
-quaternius.com
+Kenney – Robot Pack (CC0) https://kenney.nl/assets/robot-pack
 
-Quaternius – Robot Enemy Large (direct)
+Kenney – Assets home (browse drones, kits) https://kenney.nl/assets
 
-https://poly.pizza/m/mPDR0L5uKx
+Mixamo – characters & animations (requires free Adobe ID to download) https://www.mixamo.com/
 
-poly.pizza
+Poly.pizza – Drone models (search/download) https://poly.pizza/search/Drone (or specific drone example) https://poly.pizza/m/DNbUoMtG3H
 
-Quaternius – Ultimate Space Kit (bundle with many mech/robot)
-
-https://poly.pizza/bundle/Ultimate-Space-Kit-YWh743lqGX
-
-poly.pizza
-
-Kenney – Robot Pack (CC0)
-
-https://kenney.nl/assets/robot-pack
-
-kenney.nl
-
-Kenney – Assets home (browse drones, kits)
-
-https://kenney.nl/assets
-
-kenney.nl
-
-Mixamo – characters & animations (requires free Adobe ID to download)
-
-https://www.mixamo.com/
-
-mixamo.com
-
-Poly.pizza – Drone models (search/download)
-
-https://poly.pizza/search/Drone
-
-(or specific drone example) https://poly.pizza/m/DNbUoMtG3H
-
-poly.pizza+1
-
-Quaternius on itch.io (alternative mirrors / packs)
-
-https://quaternius.itch.io/
-
-    itch.io
+Quaternius on itch.io (alternative mirrors / packs) https://quaternius.itch.io/
 
 ### NOTE SULLA LICENZA E SULLO USO
 
-    Quaternius: la maggior parte degli asset è CC0/public domain (uso commerciale permesso). Controlla la pagina del pack.
-
-    quaternius.com+1
-
-    Kenney: asset CC0 o liberamente riutilizzabili, spesso con richiesta di donazione come cortesia.
-
-    kenney.nl+1
-
-    Mixamo: richiede Adobe ID per download; le animazioni/personaggi forniti da Mixamo sono liberamente utilizzabili in progetti, ma verifica sempre termini per modelli caricati da terzi.
-
-    mixamo.com
-
-    Poly.pizza / Sketchfab / OpenGameArt: mirror e repository con molte risorse gratuite; controlla le singole licenze (CC0, CC-BY, etc.).
-
-    poly.pizza+1
+- Quaternius: la maggior parte degli asset è CC0/public domain (uso commerciale permesso). Controlla la pagina del pack.
+- Kenney: asset CC0 o liberamente riutilizzabili, spesso con richiesta di donazione come cortesia.
+- Mixamo: richiede Adobe ID per download; le animazioni/personaggi forniti da Mixamo sono liberamente utilizzabili in progetti, ma verifica sempre termini per modelli caricati da terzi.
+- Poly.pizza / Sketchfab / OpenGameArt: mirror e repository con molte risorse gratuite; controlla le singole licenze (CC0, CC-BY, etc.).
 
 ### CONSIGLI TECNICI RAPIDI (Godot)
 
-    Formato consigliato: .glb (gltf binary) mantiene mesh + materiali + animazioni. Se scarichi .fbx da Mixamo, aprilo in Blender ed esporta .glb prima di importare in Godot 4.
+Formato consigliato: .glb (gltf binary) mantiene mesh + materiali + animazioni. Se scarichi .fbx da Mixamo, aprilo in Blender ed esporta .glb prima di importare in Godot 4.
 
-    Rig & Animazioni: Mixamo usa uno scheletro umano standard → è facile applicare animazioni. Per mech/robot, assicurati che lo skeleton sia coerente; altrimenti riggalo in Blender.
+Rig & Animazioni: Mixamo usa uno scheletro umano standard → è facile applicare animazioni. Per mech/robot, assicurati che lo skeleton sia coerente; altrimenti riggalo in Blender.
 
-    AnimationTree: usa AnimationTree + StateMachine per blend di locomotion/attack.
+AnimationTree: usa AnimationTree + StateMachine per blend di locomotion/attack.
 
-    AI: NavigationAgent3D + custom state machine o plugin behavior tree (UnitAI o plugin community).
+AI: NavigationAgent3D + custom state machine o plugin behavior tree (UnitAI o plugin community).
 
-    Collisioni: dividi hitboxes (testa, torso, arti) per danni differenziati; i heavy mech possono avere hurtboxes multipli.
+Collisioni: dividi hitboxes (testa, torso, arti) per danni differenziati; i heavy mech possono avere hurtboxes multipli.
 
-    LOD / performance: per open world, prepara versioni low-poly o LOD per robot molto distanti.
+LOD / performance: per open world, prepara versioni low-poly o LOD per robot molto distanti.
 
-    Audio: effetti metallici, idling servomotori e toni da synth (Kenney / Mixkit / zapsplat hanno librerie gratuite).
+Audio: effetti metallici, idling servomotori e toni da synth (Kenney / Mixkit / zapsplat hanno librerie gratuite).
 
 Esempio di mapping rapido (classe → asset consigliato)
 
-    Cogitator / Robocervello → Quaternius Animated Robot + custom UI core. https://quaternius.com/packs/animatedrobot.html
-
-
-quaternius.com
+Cogitator / Robocervello → Quaternius Animated Robot + custom UI core. https://quaternius.com/packs/animatedrobot.html
 
 Manutentore (Mr.Handy-like) → Quaternius Animated Robot (aggiungi bracci) / mix with small prop packs. https://poly.pizza/m/QCm7qe9uNJ
 
-poly.pizza
-
 Protettore (Protectron-like) → Kenney Robot Pack (bipedi modulari). https://kenney.nl/assets/robot-pack
-
-kenney.nl
 
 Assaltore (Assaultron-like) → Mixamo robot warrior + animations. https://www.mixamo.com/
 
-mixamo.com
-
 Sentinella (Sentry Bot-like) → Quaternius Animated Mech Pack. https://quaternius.com/packs/animatedmech.html
-
-quaternius.com
 
 Occhio (Eyebot-like) → Poly.pizza / Kenney drone assets. https://poly.pizza/m/DNbUoMtG3H
 
-    poly.pizza
-
 Vuoi che:
 
-    generi per te un template Godot (cartella esempio con .glb + scene + script GDScript per un robot Guardian e per un drone Watcher), o
-
-    trasformi queste schede in file .md o .pdf pronti da scaricare?
+- generi per te un template Godot (cartella esempio con .glb + scene + script GDScript per un robot Guardian e per un drone Watcher), o
+- trasformi queste schede in file .md o .pdf pronti da scaricare?
 
 Dimmi quale preferisci e te lo preparo (posso anche includere uno small demo GDScript skeleton pronto da incollare in Godot)
 
@@ -529,8 +394,4 @@ Non considerare questa frase, è un commento, serve a me per gestire i salvatagg
 ChatGPT ha detto:
 
 Va bene, commento ignorato.
-
-
-
-
 
