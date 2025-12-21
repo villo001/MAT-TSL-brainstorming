@@ -1,0 +1,218 @@
+
+# Inizio gioco Dunei
+
+Hai detto:
+
+Mi sembra che l'inizio Dunei sia quello più efficace ai fini dell'immedesimazione e del tutorial iniziale, spiego il perché.
+
+Con la cinematica iniziale permette di generare una aspettativa di pericolosità della zona: pochi flash confusi di un combattimento (dove il giocatore prenderà il colpo in testa che causerà l'amnesia totale), probabilmente la piccola squadra capitanata dal giocatore (un Bashar, grado) viene annientata da un gruppo di predoni i quali a loro volta vengono annientati da un piccolo gruppo di Dunei.
+
+A questo punto il giocatore verrà svegliato da un compagno sopravvissuto (del tipo "Bashar, segliati, stanno per ucciderci e distillarci come gli altri..."), il giocatore apre gli occhi e vede un Dunei che accoltella il compagno poi mentre si dirige verso di lui inciampa, cade sul suo coltello semi sacro (l'equivalente del Cryss dei Fremen di Dune) e muore. Il comandante del piccolo gruppo di Dunei entra insospettito dal trambusto e interpreta il tutto come un segno che l'Esecutore ha visto qualcosa nel giocatore e ha preferito suicidarsi anziché ucciderlo ("il Volere del Deserto, è un Segnato, portiamolo alla tribù!"). In questo modo si introduce il misticismo dei Dunei, alla stregua di quello dei Fremen. Il giocatore sviene di nuovo.
+
+Quando rinviene è in un villaggio sotterraneo Dunei (simile ad un sietch dei Fremen di Dune, però bisogna trovare un termine lore friendly in stile Fallout per il villaggio al posto di "sietch"), nudo ma con il suo HelioSat-P ancora al polso, perfettamente funzionante ma con note, registrazioni e appunti di missione cancellati in seguito al tentativo fallito dei Dunei di toglierglielo dal polso.
+
+A questo punto può partire il tutorial base (movimenti, combattimento con armi bianche e ad energia artigianali, stealth, ecc...) in un ambiente chiuso e protetto, tutorial mascherato da procedure mediche per la riabilitazione, il tutto comunque dopo aver già dato al giocatore il modo di capire ch el'ambiente è pericoloso e i Dunei stessi sono pericolosi, anche se al momento sono neutrali con lui: è un Segnato ma non per questo fa parte del "sietch" (trovare un nome diverso), il Deserto semplicemente lo vuole vivo e i dunei lo curano, lo mettono in condizione di proseguire e poi lo fanno uscire.
+
+A questo punto il capo del "sietch" (trovare un altro nome) lo accompagna all'esterno (il villaggio è relativamente vicino alla Costa, separato da un breve tratto di deserto, più o meno davanti a Porto Garibaldi ed appartiene alla parte dei Dunei più propensa a commerci ed accordi con la Costa), gli fornisce un minimo di informazioni vaghe sugli insediamenti non Dunei e solo alla fine, prima che se ne vada, gli rivela in maniera criptica che l'aveva già conosciuto in un altro frangente (alludendo alla missione personale del giocatore) ma rifiutandosi di dire di più.
+
+Con queste poche informazioni, una tuta distillante base, un'arma melee base, una pistola balistica artigianale base silenziata con una cinquantina di munizioni del calibro più piccolo, un fucile a energia base, bolt action, con una ventina di munizioni, una ventina di "tappi" (la valuta di gioco, con motivazioni uguali a quelle che hanno portato i tappi ad essere la valuta di Fallout, i Dunei la usano per gli scambi con la Costa ma fra di loro usano gli Eliobionti come valuta), un'acqua purificata (come quella di Fallout, trovare un nome lore friendly adatto), del cibo (trovare nomi adatti) e un indizio che la sua missione era diplomatica/spionistica/intelligence, il giocatore può partire per andare sulla Costa senza incontrare fauna ostile (perché il giocatore esce di mattina, e di giorno la fauna ostile rimane nascosta per il sole che porta il clima ad essere micidiale ma anche perché il "sietch" è nascosto ma vicino alla Costa.
+
+Tutto ciò permette di:
+1. dare l'impressione iniziale di pericolosità di ambiente, predoni e Dunei
+2. definire i Dunei come mistici non religiosi
+3. dare la possibilità del tutorial iniziale
+4. spiegare che il giocatore è nella Conca per uno scopo a lui sconosciuto
+5. spiegare al giocatore che non appartiene a nessuna delle fazioni presenti nel gioco, nemmeno ai Dunei
+6. dare una conoscenza iniziale dei Dunei e una infarinatura (e magari un marker sulla mappa) per ogni altra fazione
+
+Se questo approccio non ti convince correggilo, altrimenti dammi dettagliatamente
+1. quest d’apertura
+2. fase tutorial
+3. prima missione della main quest
+4. dettaglio della quest personale
+
+ChatGPT ha detto:
+
+Perfetto: la tua impostazione funziona, è coerente con la lore che abbiamo costruito e soprattutto crea un inizio potentissimo, atmosferico e narrativamente ricco, con un ritmo molto simile ai migliori incipit di Fallout + Dune.
+
+Ci sono solo lievi perfezionamenti che posso suggerire, ma nulla che rompa l’idea: la struttura è solida, cinematografica e funzionale al gameplay.
+
+Ora ti fornisco esattamente ciò che hai chiesto:
+
+## 1) Quest d’Apertura - "Il Segnato del Deserto" (titolo interno alla lore: Il Volere della Conca)
+### Cinematica iniziale
+Non giocata, ma con brevi flash interattivi
+- Buio. Rumore di vento. Sabbia. Urla.
+- Flash: il giocatore comanda una squadra (titolo: Bashar, come nei corpi militari padani) in una missione segreta nella Conca.
+- Flash: un attacco dei predoni. Granate artigianali, urla, sabbia che esplode.
+- Flash: il giocatore vede un enorme masso franare e viene colpito alla testa -> amnesia totale.
+
+### Cattura e pre-morte
+- Fade-in: il giocatore è legato, semi cosciente, disteso su una roccia levigata.
+- Un suo compagno, insanguinato, sussurra: "Bashar... svegliati... ci uccidono... ci distillano come tutti gli altri..."
+- Entra un Esecutore Duneo, armato di Kraysh, equivalente del cryss fremen ma in stile Fallout (lama di ceramite ricavata dagli alettoni di droni pre-guerra spezzati).
+- L’esecutore sgozza il compagno davanti al giocatore.
+
+### Il Segno
+    L’Esecutore si avvicina al protagonista, si piega...
+    Trema. Dice qualcosa come: "No... lui... no..."
+    Fa un passo indietro, inciampa nella sabbia instabile del pavimento scavato, cade sulla lama -> si trafigge da solo.
+
+### Interpretazione mistica
+Il comandante Duneo accorre, vede la scena, e dice:
+
+> L’Esecutore ha visto il Segno. Se il Deserto lo ha risparmiato, noi non possiamo toccarlo.
+
+> È un Segnato. Portatelo al nostro Rifuogo.
+
+("Rifuogo" = termine che sostituisce "sietch", ricorda "rifugio", ma con pronuncia più secca e desertica. Va benissimo per la lore.)
+
+### Blackout -> Risveglio nel Rifuogo
+- Il giocatore è nudo su una cuccetta, monitorato da una vecchia apparecchiatura medica tech-artigianale alimentata da un piccolo vaso di eliobionti.
+- Sul braccio ha ancora il suo HelioSat-P, danneggiato ma funzionante:
+  - GPS locale ok
+  - Sensori ok
+  - Dati di missione cancellati
+  - Identità: "Bashar - Livello classificato"
+
+### Obiettivi della quest d’apertura
+- "Parla con il Curatore del Rifuogo"
+- "Sottoponiti alle prove di recupero fisico" (-> tutorial)
+
+## 2) Fase Tutorial - "Rinasci nel Deserto"
+Il tutorial è mascherato come riabilitazione fisica e valutazione della tua idoneità a sopravvivere.
+
+### Moduli del tutorial:
+- Movimento e arrampicata -> percorsi naturali in grotte del Rifuogo
+- Stealth -> evitare piccole bestie notturne allevate dai Dunei come test
+- Combattimento melee -> addestramento con un’arma ricavata da rottami
+- Combattimento a distanza -> armi artigianali con bersagli immobili e mobili
+- Uso dell’HelioSat-P -> mappa, torcia, diagnostica, inventario
+- Sopravvivenza -> meccaniche di sete, temperatura, respirazione
+
+### Dialoghi chiave del tutorial:
+Il Curatore Duneo (ruolo misto tra sciamano e medico):
+
+> Non sei dei nostri. Non sei dei loro. Ma il Deserto ti ha reclamato. Nessuno muore senza il suo volere.
+
+> Il tuo bracciale-luce viene da fuori. L’abbiamo toccato... e lui ci ha respinti.
+
+> Sei guasto nella mente. Hai perso il prima. Ma il dopo è ancora tuo.
+
+### Ricompense del tutorial:
+Il giocatore riceve:
+- Tuta distillante rudimentale (modello base dei Dunei)
+- Coltello di vetro temperato
+- Pistola artigianale silenziata (20-40 colpi del calibro .22 Dunei)
+- Fucile ad energia artigianale (base, bolt action)
+- 1 acqua purificata ("Acqua Ricletta")
+- Cibo Duneo ("Mattonella Sabbiosa" - barre compresse proteiche)
+- 20 tappi
+- Indizi sparsi su punti della mappa (fazioni, insediamenti)
+
+Prima di uscire, il Capo del Rifuogo ti parla da solo.
+
+> Io ti conosco, straniero.
+
+> Ma non posso dire come.
+
+> Non ancora.
+
+> Non davanti agli altri.
+
+> Se vuoi risposte... trova ciò che hai perso.
+
+## 3) Prima Missione della Main Quest - "Verso la Costa"
+### Obiettivo:
+Raggiungere il primo grande insediamento della Costa: Porto Garibaldi / Comacchio (EniNova).
+
+### Perché funziona:
+- È vicino al Rifuogo dei Dunei più concilianti
+- È la fazione tecnologica, quindi perfetta per dare un primo quadro politico
+- È abbastanza civilizzata da introdurre il "mondo sociale" del gioco
+
+### Missione:
+- Attraversare una piccola sezione di deserto priva di fauna ostile (di giorno)
+- Evitare campi minati sabbiosi pre-bellici
+- Incontrare un gruppo di Dunei mercanti -> primo assaggio di diplomazia
+- Arrivare alla porta esterna di EniNova -> checkpoint tecnologico
+
+### Dialogo-chiave:
+L’ingegnere di guardia ti dice:
+
+> Questo modello di bracciale... HelioSat-P... non ne vedevo uno da anni.
+
+> A chi appartenevi? Chi ti ha mandato qui?
+
+-> Si nota un leggero riconoscimento.
+
+Non ti dice subito la verità.
+
+Lo farà solo quando sbloccherai la tua quest personale.
+
+### Conclusione della missione:
+
+La Main Quest si apre:
+
+Main Quest 1: "Il Potere della Conca"
+- Obiettivo: capire chi controlla gli Eliobionti
+- Obiettivo più profondo: trovare la propria identità perduta
+
+## 4) Dettaglio della Quest Personale - "Il Bashar Fantasma"
+Questa quest NON parte all’inizio.
+
+È seminata in tutto il gioco.
+
+Si attiva solo dopo aver visitato almeno 4 fazioni.
+
+### Premessa
+Il giocatore era in missione segreta per una Città-Stato Padana (che introdurremo nel sequel), inviato per:
+- raccogliere informazioni militari
+- valutare la distribuzione degli eliobionti
+- capire le potenzialità di conquista economica della Conca
+
+C’era anche un’altra parte della missione... cancellata dall’HelioSat-P.
+
+### Struttura della quest personale
+All’inizio nessuna fazione ti conosce.
+
+Solo una persona per fazione ti riconosce ma:
+- lo dice solo a te
+- non cambia le reazioni della fazione
+- è criptico e non spiega nulla
+
+A metà gioco trovi messaggi cifrati nascosti nell’HelioSat-P (firmati "Operatore K." o "Capitolo Nord 7").
+
+Più avanti ritrovi un vecchio membro della tua squadra superstite.
+
+Alla fine, terminata la main quest, trovi un messaggio ARCHIVIO-OMEGA:
+
+> Bashar, se stai leggendo questo, significa che non ricordi.
+
+> La tua missione non era studiare la Conca.
+
+> La tua missione era... preparare l’arrivo.
+
+Il seguito rimane aperto -> perfetto per un DLC / sequel.
+
+## Conclusione: tutto è coerente, l’inizio Dunei è il migliore
+Hai:
+- un incipit forte
+- lore coerente e profonda
+- tutorial organico
+- motivazioni chiare
+- introduzione graduale al mondo
+- mistero personale
+- integrazione con tutte le fazioni
+- apertura narrativa per un sequel
+
+Se vuoi, nei prossimi messaggi posso darti:
+- i nomi lore-friendly per tutto (armi, cibo, acqua, tuta distillante, Dunei words)
+- i nomi dei Rifuoghi Dunei e i loro stili architettonici
+- la lista delle prime missioni per ogni fazione
+- la lore completa dell’HelioSat-P
+- una bozza di mappa narrata per l’inizio del gioco
+- il diagramma della main quest, completo di finali e snodi
+
+Dimmi tu cosa vuoi sviluppare per primo.
+

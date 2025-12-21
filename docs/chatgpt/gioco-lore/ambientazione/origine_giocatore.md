@@ -66,146 +66,133 @@ Il protagonista potrebbe essere:
 - e quindi perfettamente giustificato.
 
 ## 3) Inizio alternativo con l’Ordine Solare
+Versione completa, coerente, narrativa e compatibile con tutte le fazioni.
 
-(versione completa, coerente, narrativa e compatibile con tutte le fazioni)
-⭐ PREMESSA
-
+### PREMESSA
 L’Ordine Solare:
-
-    vive nell’Abbazia di Pomposa
-
-    crede che gli eliobionti rappresentino "luce incarnata"
-
-    non sono magici: sono religiosi, disciplinati e pragmatici
-
-    vedono nella tecnologia un dono da purificare e armonizzare
+- vive nell’Abbazia di Pomposa
+- crede che gli eliobionti rappresentino "luce incarnata"
+- non sono magici: sono religiosi, disciplinati e pragmatici
+- vedono nella tecnologia un dono da purificare e armonizzare
 
 Il tuo dispositivo ti rende interessante per loro non perché magico, ma perché "testimone di una tecnologia perduta".
-🎬 SCENA DI APERTURA (versione Ordine Solare)
-1. Buio. Suoni di metallo e canti profondi.
+
+#### SCENA DI APERTURA (versione Ordine Solare)
+1) Buio. Suoni di metallo e canti profondi.
 
 Hai brevi flash:
+
 - un colpo alla testa
 - sabbia che ti investe
 - una sagoma con bracciali metallici
-Poi tutto sparisce.
-2. Risveglio nella Sala dell’Orto Solare
 
+Poi tutto sparisce.
+
+2) Risveglio nella Sala dell’Orto Solare
 Luce dorata.
+
 Profumo di resina e olio caldo.
+
 Canti ritmati.
+
 Ti risvegli steso su una lettiga, sorvegliato da due monaci guerrieri con armature ricavate da pannelli fototermici.
 
 Il tuo dispositivo è al centro della stanza, posato su un altare tecnico.
+
 Un anziano "Fratello Inquisitore" lo sta analizzando con strumenti artigianali.
 
 Non ricordi nulla.
-3. Dialogo iniziale (neutro, non vincolante)
 
+3) Dialogo iniziale (neutro, non vincolante)
 Il Fratello-Inquisitore:
 
-    Ti abbiamo trovato nel deserto alto, privo di sensi, preda dei predoni Cineriti.
-    Questo oggetto era legato al tuo polso.
-    Respira... il sole non ti ha abbandonato.
+_Ti abbiamo trovato nel deserto alto, privo di sensi, preda dei predoni Cineriti.
+
+Questo oggetto era legato al tuo polso.
+
+Respira... il sole non ti ha abbandonato._
 
 Non ti giudicano una minaccia.
+
 Hai:
-
-    una tuta distillante recuperata dai predoni
-
-    ferite recenti
-
-    una coltellata superficiale
-
-    nessun ricordo
+- una tuta distillante recuperata dai predoni
+- ferite recenti
+- una coltellata superficiale
+- nessun ricordo
 
 Il bracciale (BioCore-V / HelioSat-P / VIGILE-Helio Mk.2) si riattiva al tuo tocco.
 
 I monaci esitano.
-4. Il "Segno di Luce" (interpretazione religiosa AMBIGUA)
 
+4) Il "Segno di Luce" (interpretazione religiosa AMBIGUA)
 Quando lo tocchi, il dispositivo:
-
-    si illumina
-
-    emette un piccolo impulso di scansione
-
-    produce un timbro sonoro
+- si illumina
+- emette un piccolo impulso di scansione
+- produce un timbro sonoro
 
 Per te è normale.
+
 Per loro è un segno.
 
 Il Fratello-Inquisitore:
 
-    La Luce ti riconosce.
-    Eppure non sei dei nostri.
-    Sei un viandante... un pellegrino senza memoria.
+_La Luce ti riconosce.
+
+Eppure non sei dei nostri.
+
+Sei un viandante... un pellegrino senza memoria._
 
 Questo non ti vincola all’Ordine.
+
 Ti rende semplicemente "ospite sotto protezione".
-5. Il tutorial nell’Abbazia
 
+5) Il tutorial nell’Abbazia
 Lo step successivo è un tutorial totalmente neutrale:
-Tutorial 1 - Equipaggiamento della tuta distillante
 
-L’Ordine ti insegna a usarla "correttamente", con un approccio quasi monastico.
-Tutorial 2 - Funzioni base del bracciale
+Tutorial 1 - Equipaggiamento della tuta distillante, l’Ordine ti insegna a usarla "correttamente", con un approccio quasi monastico.
 
-Il Fratello Inquisitore non capisce il dispositivo, ma ti osserva mentre apri i menu.
+Tutorial 2 - Funzioni base del bracciale, il Fratello Inquisitore non capisce il dispositivo, ma ti osserva mentre apri i menu.
+
 Tutorial 3 - Addestramento fisico
 
 Brevi prove nella Corte Interna:
+- movimento
+- schivate
+- tiro con arma semplice (l’Ordine non nega l’uso di armi, anzi)
 
-    movimento
+Tutorial 4 - Uscita nel deserto, una giovane monaca guerriera ("Sorella Ametista" o altro nome evocativo) ti accompagna ai confini dell’Abbazia:
 
-    schivate
+_Hai ricevuto l’Ospitalità Solare, ma il tuo cammino è tuo.
 
-    tiro con arma semplice (l’Ordine non nega l’uso di armi, anzi)
-
-Tutorial 4 - Uscita nel deserto
-
-Una giovane monaca guerriera ("Sorella Ametista" o altro nome evocativo) ti accompagna ai confini dell’Abbazia:
-
-    Hai ricevuto l’Ospitalità Solare, ma il tuo cammino è tuo.
-    Ricorda: qualunque sia la tua strada, l’Ordine non ti considera un nemico.
+Ricorda: qualunque sia la tua strada, l’Ordine non ti considera un nemico._
 
 Non sei legato a loro.
+
 Non hai fatto giuramenti.
+
 Hai solo ricevuto aiuto e rispetto.
-👌 Perché questo inizio funziona perfettamente?
-✔ Non ti lega a una fazione specifica
 
-L’Ordine ti ha salvato per dovere religioso, non per interesse politico.
-✔ Ti lascia aperte tutte le strade
+Perché questo inizio funziona perfettamente?
 
-L’aiuto dell’Ordine non compromette future alleanze con:
+Non ti lega a una fazione specifica, l’Ordine ti ha salvato per dovere religioso, non per interesse politico.
 
-    Dunei
+Ti lascia aperte tutte le strade,l’aiuto dell’Ordine non compromette future alleanze con:
+- Dunei
+- Esarcato
+- Lega Veneziana
+- EniNova
+- Reietti delle Sabbie
 
-    Esarcato
+Introduce l’Ordine in modo affascinante ma non troppo spirituale.
 
-    Lega Veneziana
+L’interpretazione dell’impulso del dispositivo resta religiosa, NON magica, offre un’esperienza iniziale diversa dai Dunei, più calma, più rituale, più filtrata attraverso disciplina e ordine.
 
-    EniNova
-
-    Reietti delle Sabbie
-
-✔ Introduce l’Ordine in modo affascinante ma non troppo spirituale
-
-L’interpretazione dell’impulso del dispositivo resta religiosa, NON magica.
-✔ Offre un’esperienza iniziale diversa dai Dunei
-
-Più calma, più rituale, più filtrata attraverso disciplina e ordine.
-✔ Il tuo background padano è giustificato
+Il tuo background padano è giustificato
 
 Il dispositivo e il tuo addestramento lo suggeriscono naturalmente.
-🔵 Vuoi che ora proponga:
 
-    Gli inizi per le altre fazioni (Esarcato, EniNova, Lega Veneziana, Reietti)?
-
-    Un inizio "neutro" dove sfuggi ai predoni e ti imbatti casualmente nelle fazioni una dopo l’altra?
-
-    Una timeline completa che permetta al giocatore di incontrare tutte le fazioni senza bruciarne nessuna nei primi minuti?
-
-
+Vuoi che ora proponga:
+- Gli inizi per le altre fazioni (Esarcato, EniNova, Lega Veneziana, Reietti)?
+- Un inizio "neutro" dove sfuggi ai predoni e ti imbatti casualmente nelle fazioni una dopo l’altra?
+- Una timeline completa che permetta al giocatore di incontrare tutte le fazioni senza bruciarne nessuna nei primi minuti?
 
