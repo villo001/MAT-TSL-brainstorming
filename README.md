@@ -1,2 +1,5 @@
 # MAT-TSL-brainstorming
-Brainstorminc (anche con ChatGPT) per Mediterranean Atomic Tales: The Sunken Lands
+Brainstorming con openCode e OpenRouter per Mediterranean Atomic Tales: The Sunken Lands
+
+Definisce la fase di ideazione e pre-produzione del gioco.
+
