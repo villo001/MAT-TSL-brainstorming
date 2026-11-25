@@ -1,6 +1,6 @@
 # Breadcrumb
 
-[Home](/README.md) > [Docs](/docs/README.md) > [Gameplay Mechanics]
+[Home](../README.md) > [Docs](README.md) > [Gameplay Mechanics](GAMEPLAY_MECHANICS.md)
 
 ---
 
@@ -17,8 +17,8 @@
 2. **Raccogli** risorse: plastica, alluminio, legno, viti, adesivo, ingranaggi, Eliobionti.  
 3. **Crafta** al Player Home o nei banchi da lavoro: armi, moduli energia, equipaggiamento.  
 4. **Gestisci** energia bioelettrica (biopannelli, bionuclei, biocelle) e approvvigionamento idrico.  
-5. **Scegli** alleanze con fazioni locali o potenze fuori mappa.  
-6. **Avanza** la storia: scopri l'identità sintetica del protagonista.
+5. **Scegli** alleanze con fazioni locali (Venezia, Abbazia di Pomposa, Porto Garibaldi, Porto Corsini, Ravenna, Popolo del Deserto) o avamposti limitati.  
+6. **Procedi nella storia**: l'obiettivo apparente è controllare la costa; dopo il "finto finale", scopri gradualmente che il protagonista è un sintetico Mk.3 e prendi la decisione finale (tornare a Bologna, allearsi con Ferrara, o rimanere neutro).
 
 ---
 
@@ -46,7 +46,7 @@
 
 ## 4. Progressione del Personaggio
 
-- **Classe sintetica:** All'inizio si sceglie (o si scopre) una delle tre classi del protagonista: Bioelettrica, Tossica, Mutageno. Ogni classe sblocca abilità specifiche.
+- **Classe sintetica:** All'inizio il protagonista non conosce la propria classe: viene scoperta gradualmente durante il gioco in base alle scelte e alle situazioni affrontate. Sono disponibili tre classi: Bioelettrica, Tossica, Mutageno. Ogni classe sblocca abilità specifiche.
 - **Albero abilità:** Punti esperienza guadagnati da scelte narrative, raccolta risorse, completamento missioni fazione.
 - **Perk esempio:**
   - *Carica Solare* – biopannelli ricaricano più velocemente.
@@ -72,6 +72,7 @@
 - **Moneta principale:** Energia bioelettrica (carica dei biopannelli/bionuclei).
 - **Risorse secondarie:** Acqua (scarsa), Eliobionti (per crafting energetico), materiali da crafting.
 - **Commercio:** Con le fazioni (Venezia, Porto Corsini, Ravenna, ecc.) per risorse scarse o chiave.
+- **Ruolo di Bologna:** Bologna è un avamposto limitato nel terreno di gioco (un punto di partenza per la missione del protagonista). Non è una fazione giocabile completa come le altre, ma un luogo dove il protagonista può ricevere supporto o missioni legate alla sua identità di sintetico Mk.3.
 
 ---
 <small>Breadcrumb aggiunta in alto. File vivo: espandere con dettagli bilanciamento, tipi di nemici, sistema VATS-alternativo.</small>

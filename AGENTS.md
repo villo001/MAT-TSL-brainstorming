@@ -72,3 +72,6 @@ L'agente deve aiutare a creare e mantenere aggiornati i seguenti file principali
 ### C. Gestione di File e Directory Temporanee
 - **Spazio di lavoro temporaneo:** Se durante la sessione l'agente ha necessità di creare script di prova, file di log o directory temporanee per elaborare dati o testare idee, deve **obbligatoriamente** crearli all'interno della directory di sistema `/tmp/` (essendo in ambiente Linux).
 - **Pulizia obbligatoria:** Una volta completato il compito o l'elaborazione, l'agente ha il dovere tassativo di ripulire ed eliminare tutti i file temporanei creati in `/tmp/`, lasciando l'ambiente pulito.
+
+### D. Directories/files da non considerare
+- Eventuali file qq* e la directory temp/ non sono mai da considerare se non espressamente indicato, servono solo a presentarti filetemporanei per la lettura quando devo indicare informazioni strutturate.

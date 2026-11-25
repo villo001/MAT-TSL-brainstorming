@@ -1,6 +1,6 @@
 # Breadcrumb
 
-[Home](/README.md) > [Docs](/docs/README.md) > [Feasibility & Scope]
+[Home](../README.md) > [Docs](README.md) > [Feasibility & Scope](FEASIBILITY_AND_SCOPE.md)
 
 ---
 
@@ -20,6 +20,7 @@
 | **Single‑resource bottleneck** | Eliobionti/unica risorsa energia → gameplay ripetitivo. | Diversificare risorse: acqua, materiali crafting, influenza fazione. |
 | **IP Safety** | Rischio involontario di usare termini protetti. | Checklist terminologia (già in HIGH_CONCEPT.md/WORLD_AND_LORE.md). |
 | **Prototipazione gameplay** | Servire mesi per costruire mondo 4×4 km. | MVP: mappa ridotta a 1×1 km con 2 fazioni + tutorial breve. |
+| **Coerenza narrativa** | La missione di test/recon → agguato → scoperta sintetico → scelta finale può generare buchi narrativi. | Allineare HIGH_CONCEPT.md, WORLD_AND_LORE.md e GAMEPLAY_MECHANICS.md prima di ogni sprint. |
 
 ---
 
@@ -28,6 +29,7 @@
 **Sprint 1 (2 settimane):**
 - Mappa base 1×1 km: costa occidentale + piccola parte di deserto.
 - Protagonista sintetico con movimento FPS base.
+- **Avamposto di Bologna come punto di partenza** per la missione di test e ricognizione.
 - Due banchi da lavoro (crafting base: biopannelli + biocelle).
 - Fazione minima: Porto Corsini (sparsi 2 insediamenti).
 

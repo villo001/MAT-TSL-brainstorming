@@ -1,6 +1,6 @@
 # Breadcrumb
 
-[Home](/README.md) > [Docs](/docs/README.md) > [World & Lore]
+[Home](../README.md) > [Docs](README.md) > [World & Lore](WORLD_AND_LORE.md)
 
 ---
 
@@ -52,7 +52,7 @@ L'Italia nel 2287 è un territorio devastato non tanto dalla radioattività glob
 - **Quadrante Occidentale**: terraferma attuale con resti di città, campagne e insediamenti minori.
 - **Venezia**: accessibile solo via barca da Chioggia o tramite tunnel sotterranei da Casalborsetti.
 - **Ferrara**: ducato con industrie chimico-fisiche avanzate, teletrasporto segreto militare.
-- **Bologna**: istituto di ricerca, sintetici Mk.3.
+- **Bologna**: avamposto militare limitato nella mappa di gioco (un punto di partenza per la missione di test e ricognizione). L'Università di Bologna, vicina, è diventata il centro di governo della zona bolognese dopo il collasso del 2077 e sviluppa i sintetici. Mk.1 e Mk.2 sono noti all'esterno (rudimentali); il Mk.3 è segreto militare.
 - **Delta del Po**: ridotto a pochi rigagnoli, risorsa idrica cruciale.
 
 ## Fazioni
@@ -66,8 +66,8 @@ L'Italia nel 2287 è un territorio devastato non tanto dalla radioattività glob
 6. **Popolo del Deserto** – Comunità nomade del Deserto Adriatico, ispirata ai Fremen di Dune, che abita il deserto totalmente arido. Nel 2287, con il deserto ormai Arrakis-like, il loro stile di vita è quello di abitanti di un deserto puro: gestione estrema dell'acqua, navigazione delle dune, conservazione delle risorse.
 
 ### Potenze Fuori Mappa (Influenza Latente)
-7. **Ferrara** – Ducato con industrie chimico-fisiche avanzate, detentore di un teletrasporto segreto militare. Solo le alte gerarchie e una frazione di militari scelti ne sono a conoscenza.
-8. **Bologna** – Struttura civile basata sull'Istituto di ricerca, specializzata in automazione e robotica. Ha raggiunto il traguardo di creare sintetici Mk.3, segreti di stato strettamente custoditi.
+7. **Ferrara** – Ducato con industrie chimico-fisiche avanzate, detentore di un teletrasporto segreto militare. Controlla un solo avamposto sulla costa, come Bologna; la sua influenza diretta è limitata.
+8. **Bologna** – Avamposto militare limitato nel terreno di gioco (un punto di partenza per la missione di test e ricognizione). L'Università di Bologna, vicina, è diventata il centro di governo della zona bolognese dopo il collasso del 2077 e sviluppa i sintetici. Mk.1 e Mk.2 sono noti all'esterno (rudimentali); il Mk.3 è segreto militare.
 
 ### Micro-fazioni e Gruppi Minori
 - Comunità di raccoglitori di Eliobionti nel Deserto Adriatico (se il deserto è arido, queste comunità gestiscono la raccolta dei ceppi microbici).
@@ -83,6 +83,8 @@ Noi evitiamo termini registrati della saga Fallout (Vault, Pip-Boy, VATS, Caps, 
 - **"Comunità Europea"** → nostra federazione pre-bellica europea
 - **"Istituto"** → nostro istituto di ricerca civile (non "Institute" di Fallout)
 - **"Sintetico"** → nostro essere artificiale creato in laboratorio
+- **"Sintetici Mk.1/Mk.2"** → modelli noti all'esterno, rudimentali e riconoscibili
+- **"Sintetico Mk.3"** → modello segreto militare, indistinguibile da un umano
 - **"Eliobionti"** → nostri microorganismi bioelettrici (originali)
 - **"Deserto Adriatico"** → nostro deserto di sabbia (originale, equivalente ad Arrakis)
 - **"Neo Atlantropa"** → nostro progetto di controllo dei bacini marini (ispirato a progetto reale, non IP protetta)
