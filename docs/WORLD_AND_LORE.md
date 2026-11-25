@@ -6,6 +6,13 @@
 
 # WORLD_AND_LORE — Mediterranean Atomic Tales: The Sunken Lands
 
+**Ultimo aggiornamento:** 2026-11-25  
+**Stato:** bozza
+
+## Scopo del documento
+
+Questo documento costruisce la base storica e loreale del setting: timeline dal 2000 al 2287, ambientazione italiana (deserto Adriatico prosciugato, Arrakis-like), fazioni, tono narrativo e terminologia originale (glossario). È il riferimento per chi deve mantenere coerenza tra storia, geografia e identità dei popoli nel gioco.
+
 ## Premessa Storica
 Noi ricostruimmo l'Italia partendo da una timeline condivisa con la lore canonica di Fallout, con le seguenti tappe fondamentali:
 

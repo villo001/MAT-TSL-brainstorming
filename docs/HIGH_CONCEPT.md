@@ -6,6 +6,13 @@
 
 # HIGH_CONCEPT — Mediterranean Atomic Tales: The Sunken Lands
 
+**Ultimo aggiornamento:** 2026-11-25  
+**Stato:** bozza
+
+## Scopo del documento
+
+Questo documento definisce il concept di alto livello del gioco: logline, elevator pitch, pilastri di gioco (game pillars), pubblico di riferimento e Unique Selling Proposition (USP). Serve come riferimento rapido per allineare tutte le decisioni di design e comunicare la visione centrale a chiunque entri nel progetto.
+
 ## Logline
 Nel 2287, un **sintetico amnesico** risveglia nel deserto adi­tico, privo di ricordi e armato solo di un'impronta biologica unica. All'inizio non sa di essere un sintetico: deve attraversare rovine e fazioni per controllare le risorse bioelettriche e scoprire la propria identità, mentre il giocatore scopre gradualmente che il protagonista è un sintetico Mk.3, ultimo prodotto dell'Università di Bologna.
 

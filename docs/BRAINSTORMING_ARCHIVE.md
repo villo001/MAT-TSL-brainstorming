@@ -8,6 +8,13 @@ title: La nostra visione
 ---
 # Mediterranean Atomic Tales: The Sunken Land
 
+**Ultimo aggiornamento:** 2026-11-25  
+**Stato:** bozza
+
+## Scopo del documento
+
+Questo documento archivia le note originali di brainstorming (da `temp/puntodiinizio.md` e `temp/historytimeline.md`), conservando il percorso di ideazione che ha portato alla lore e alle meccaniche attuali. Serve come traccia storica per capire le scelte fatte e le alternative scartate, senza modificarne il contenuto originale.
+
 Mediterranean Atomic Tales: The Sunken Land (da ora in poi, **_MAT:TSL_**) praticamente è una dichiarazione d'amore per una Saga videoludica molto famosa, ambientata in un futuro distopico post-apocalittico dopo la _Guerra Sinoamericana_ culminata con la caduta delle testate termonucleari nel 2077 e dalla quale è stata anche tratta una serie TV di grande successo.
 
 Ed è anche una dichiarazione d'amore per il quarto capitolo della Saga (inaspettatamente), per le sue meccaniche di gioco, per la sua componente action e per la progressione del personaggio che ne fanno un capitolo molto intuitivo e coinvolgente da giocare.

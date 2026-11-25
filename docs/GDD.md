@@ -6,8 +6,12 @@
 
 # GDD — Mediterranean Atomic Tales: The Sunken Lands
 
-**Stato:** Bozza in fase di ideazione.  
-**Scopo:** Documentare il Game Design Document (GDD) completo per il progetto, con focus su gameplay, progressione, UI/UX, level design e pianificazione delle milestone.
+**Ultimo aggiornamento:** 2026-11-25  
+**Stato:** bozza
+
+## Scopo del documento
+
+Questo documento sintetizza il Game Design Document completo: gameplay, progressione, UI/UX, level design, milestones e relazioni tra i sistemi. È il riferimento centrale per il team di sviluppo e per l'allineamento tra i diversi documenti (HIGH_CONCEPT, WORLD_AND_LORE, GAMEPLAY_MECHANICS, FEASIBILITY_AND_SCOPE).
 
 ---
 

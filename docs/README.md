@@ -1,5 +1,8 @@
 # Mediterranean Atomic Tales: The Sunken Lands (MAT:TSL)
 
+**Ultimo aggiornamento:** 2026-11-25  
+**Stato:** bozza
+
 ## Panoramica del Progetto
 
 **Mediterranean Atomic Tales: The Sunken Lands** è un RPG open‑world in prima persona ambientato in un’Italia post‑2287, dove il Mare Adriatico si è prosciugato trasformandosi in un immenso deserto di dune sabbiose, simile al ciclo di *Dune*. Il giocatore interpreta un essere amnesico che si risveglia in un sietch del Deserto Adriatico, armato solo di un’impronta biologica unica, e deve attraversare rovine e fazioni per scoprire la propria identità, controllare le risorse bioelettriche e decidere chi plasmerà il futuro della costa italiana.
@@ -52,5 +55,3 @@ Questo è il repository **`MAT-TSL-brainstorming`**, che contiene tutti i file d
 ### Breadcrumb Finale
 
 `Home` → `Docs` → `High Concept` → `World & Lore` → `Gameplay Mechanics` → `Feasibility & Scope` → `GDD` → `Brainstorming Archive`
-
-*Ultimo aggiornamento: 25 novembre 2026*

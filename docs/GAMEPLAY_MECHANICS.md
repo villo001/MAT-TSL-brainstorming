@@ -6,8 +6,12 @@
 
 # GAMEPLAY MECHANICS — Mediterranean Atomic Tales: The Sunken Lands
 
-**Stato:** Bozza in fase di ideazione.  
-**Obiettivo:** Definire il ciclo di gioco (core loop), sistema di crafting, combattimento, progressione ed economia, coerenti con l'HIGH_CONCEPT e WORLD_AND_LORE già prodotti.
+**Ultimo aggiornamento:** 2026-11-25  
+**Stato:** bozza
+
+## Scopo del documento
+
+Questo documento specifica i sistemi di gioco core: core loop, crafting, combattimento FPS, progressione del personaggio (classi sintetiche, perk), Player Home ed economia/risorse. È la guida tecnica per chi prototipa e implementa le meccaniche, e deve rimanere coerente con HIGH_CONCEPT e WORLD_AND_LORE.
 
 ---
 

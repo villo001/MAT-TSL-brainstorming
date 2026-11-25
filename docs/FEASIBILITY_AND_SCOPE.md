@@ -6,8 +6,12 @@
 
 # FEASIBILITY AND SCOPE — Mediterranean Atomic Tales: The Sunken Lands
 
-**Stato:** Bozza critica.  
-**Obiettivo:** Analisi critica dei rischi, piano di prototipazione graybox e definizione di cosa è **Out of Scope** per un progetto open source in Godot 4.7.2.
+**Ultimo aggiornamento:** 2026-11-25  
+**Stato:** bozza
+
+## Scopo del documento
+
+Questo documento analizza i rischi principali, definisce il piano di prototipazione graybox in fasi (sprint) e identifica in modo esplicito cosa è **Out of Scope** per un progetto open source Godot 4.7.2. È lo strumento di valutazione critica per guidare le decisioni di scope e priorità di sviluppo.
 
 ---
 
